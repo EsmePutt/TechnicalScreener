@@ -16,7 +16,7 @@ import org.junit.Test;
 public class ParserTests {
 	
 	/**
-	 *  Tests that the Story Park JSON file is parsed correctly
+	 *  Tests that the Storypark JSON file is parsed correctly
 	 */
 	@Test
 	public void testValid() throws Exception {
@@ -29,7 +29,7 @@ public class ParserTests {
 	}
 	
 	/**
-	 *  Tests that no employees are returned when the Story Park offices are moved to Auckland
+	 *  Tests that no employees are returned when the Storypark offices are moved to Auckland
 	 */
 	@Test
 	public void testDifferentLocation() throws Exception {

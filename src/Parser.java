@@ -33,10 +33,10 @@ public class Parser {
 
 
 	/**
-	 *  Parses the JSON file and constructs a map of the employees within 2km of the StoryPark offices
+	 *  Parses the JSON file and constructs a map of the employees within 2km of the Storypark offices
 	 * 
 	 * @return employees
-	 * 			A map containing the names and distance from the StoryPark offices for all
+	 * 			A map containing the names and distance from the Storypark offices for all
 	 * 			employees living within 2km
 	 *          
 	 */
@@ -77,7 +77,7 @@ public class Parser {
 	}
 	
 	/**
-	 *  Calculates the distance between the employee's house and the StoryPark offices
+	 *  Calculates the distance between the employee's house and the Storypark offices
 	 * 
 	 * @param longitude
 	 * 			The longitudinal value of the employee's house location
@@ -85,7 +85,7 @@ public class Parser {
 	 * 			The latitudinal value of the employee's house location
 	 * 
 	 * @return distance
-	 * 			The distance between the employee's house and the StoryPark offices
+	 * 			The distance between the employee's house and the Storypark offices
 	 *          
 	 */
 	public double calculateDistance (double longitude, double latitude) {
@@ -100,18 +100,18 @@ public class Parser {
 	}
 	
 	/**
-	 * Prints the names and distances of all employees within 2km of the StoryPark offices
+	 * Prints the names and distances of all employees within 2km of the Storypark offices
 	 * 
 	 * @param employees
-	 * 			A map of names and distances of the employees within 2km of the StoryPark offices
+	 * 			A map of names and distances of the employees within 2km of the Storypark offices
 	 *          
 	 */
 	public void printEmployees(Map<String, Double> employees) {
 		
-		System.out.println("Employees within 2km of Story Park: \n");
+		System.out.println("Employees within 2km of Storypark: \n");
 		
 		for (String employee : employees.keySet()) {
-			System.out.println(employee + ": " + Math.floor(employees.get(employee)) /1000 + " km from Story Park");
+			System.out.println(employee + ": " + Math.floor(employees.get(employee)) /1000 + " km from Storypark");
 		}
 		
 	}
