@@ -7,6 +7,8 @@ This Repository contains four .java files:
 3. A class responsible for parsing a JSON file and storing the staff members living within a certain distance of a specified location, as well as printing the staff members to the console
 4. A suite of JUnit tests designed to test the parser
 
+This repository also contains one file which implements the ArrayFlattener program in Swift. This file also contains a test suite for testing this program under a variety of valid and invalid conditions. 
+
 It also contains other files necessary to complete the tests (i.e an empty .JSON file and an incorrectly formatted .JSON file)
 
 # Technical Article:
